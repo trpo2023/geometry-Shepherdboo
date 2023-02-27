@@ -122,7 +122,7 @@ void circle(char figure[])
     if (figure[k] != ')') {
         printf("Error at column %d: expected ')'\n", k);
     } else {
-        printf("succeed\n");
+        printf("Success\n");
     }
 }
 
