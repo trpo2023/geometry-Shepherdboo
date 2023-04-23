@@ -1,6 +1,4 @@
-bin/app
-obj/src/geometry/geometry.d
-obj/src/geometry/geometry.o
-obj/src/libgeometry/app.d
-obj/src/libgeometry/app.o
-obj/src/libgeometry/libgeometry.a
+bin
+obj/src/geometry/*.*
+obj/src/libgeometry/*.*
+obj/test/*.*
