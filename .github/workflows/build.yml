@@ -1,0 +1,19 @@
+name: Build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/ checkout@v2
+
+      - name: Check codestyle
+        run: git ls-files *.{c,h} | clang-format -i --verbose && git diff --exit-code
+
+      - name: Build application
+        run: make
+
+      - name: Build tests
+        run: make test
