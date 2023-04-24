@@ -16,7 +16,7 @@ typedef struct
 typedef struct
 {
     char name[MAX_ELEMENTS];
-    char type[MIN_ELEMETNS];
+    char type[MIN_ELEMENTS];
     Coords coords[MAX_COORDS];
     int intersects[MIN_ELEMENTS];
 } Figure;
