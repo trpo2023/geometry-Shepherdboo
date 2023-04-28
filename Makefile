@@ -1,5 +1,5 @@
 NAME_APP = app
-LIB_NAME = libgeometry.a
+LIB_NAME = libapp.a
 TEST_NAME = $(NAME_APP)-test
 INPUT_FILE = data
 
@@ -9,8 +9,8 @@ DEPSFLAGS = -MMD
 
 OBJ_DIR = obj
 BIN_DIR = bin
-APP_DIR = src/grometry
-LIB_DIR = src/libgeometry
+APP_DIR = src/app
+LIB_DIR = src/libapp
 TEST_DIR = test
 LIB_TEST_DIR = thirdparty
 
