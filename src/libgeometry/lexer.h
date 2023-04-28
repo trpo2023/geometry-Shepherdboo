@@ -10,5 +10,5 @@ void skipSpaces(char *, Figure *, int *);
 void fillErrorString(char *, int, char *);
 double getValue(char *, int *, Figure *, char, char *);
 int circleHandler(char *, Figure *, char *);
-int trianglehandler(char *, Figure *, char *);
-int stringHandler(char*, Figure *, char *);
+int triangleHandler(char *, Figure *, char *);
+int stringHandler(char *, Figure *, char *);
