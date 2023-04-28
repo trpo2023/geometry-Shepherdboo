@@ -9,5 +9,5 @@ int area(Coords, Coords, Coords);
 bool boundingBox(int, int, int, int);
 bool similarFigures(Figure, Figure);
 bool differentFigures(Figure, Figure);
-int getIntrsections(Figure *, int, int);
+int getIntersections(Figure *, int, int);
 void printIntersections(Figure *, int, int);
