@@ -5,7 +5,7 @@
 #define CIRCLE_START 6
 #define TRIANGLE_START 8
 
-void addSpaes(int);
+void addSpaecs(int);
 void skipSpaces(char *, Figure *, int *);
 void fillErrorString(char *, int, char *);
 double getValue(char *, int *, Figure *, char, char *);
