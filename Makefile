@@ -1,7 +1,7 @@
 NAME_APP = geometry
 LIB_NAME = libgeometry.a
 TEST_NAME = $(NAME_APP)-test
-INPUT_FILE = data.txt
+INPUT_FILE = data
 
 CC = gcc
 CFLAGS = -Wall -Werror
