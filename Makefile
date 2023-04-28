@@ -1,4 +1,4 @@
-NAME_APP = geometry
+NAME_APP = app
 LIB_NAME = libgeometry.a
 TEST_NAME = $(NAME_APP)-test
 INPUT_FILE = data
