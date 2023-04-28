@@ -1,6 +1,6 @@
 
 ---
 BasedOnStyle: Microsoft
-DisabledFormat: true
+DisableFormat: true
 SortIncludes: false
 ...
